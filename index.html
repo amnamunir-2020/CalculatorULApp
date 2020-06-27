@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPUI-CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Events------------------------------------------- -->
+    <!-- onclick EVENT -->
+    <!-- <a href="#" onclick="alert('Asslamoalikum!')">Click it</a> -->
+    <!-- <a href="#" onclick=" var a='Hey!!';alert(a)">Click it</a> -->
+
+    <!-- void 
+    <a href="JavaScript:void(0)" onClick="alert('Hi');">Click</a> -->
+
+
+    <!-- function call in html   event function in app.js -->
+    <!-- <a href="#" onclick="message()">Click it</a> -->
+
+    <!-- function call with arguments data pass in html   event function in app.js -->
+    <!-- <a href="#" onclick="read('Asslamolaikum Saylani!')">Click it</a> -->
+
+    <!-- <button onclick="clickButton()">Click</button> -->
+
+
+    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaO0thzfr9rBfQIvqX6WYEi-koEW6fFAmSEJ7-5xH8YdItKaMq&s" onClick="greetTheUser();"> -->
+
+    <!-- onmouseover  Event -->
+    <!-- <img width="100" onmouseout="alert('No Dolphin')" onmouseover="alert('My Dolphi love!')" src="https://images.newscientist.com/wp-content/uploads/2020/03/31210900/b8kk6g_web.jpg" alt="Dolphi">
+ -->
+
+    <!-- Events:Fields -->
+    <!-- Focus onfocus click input kai under jaker -->
+    <!-- <input type="text" onfocus="console.log('focus')"> -->
+    <!-- css color   this  camelcase    -->
+    <!-- <input type="text" size="30" onFocus="this.style.backgroundColor='black';"> -->
+
+
+    <!-- onblur input sai wapis ana -->
+    <!-- <input type="text" size="30" onblur="this.style.backgroundColor='grey';" " onFocus="this.style.backgroundColor='black' ; "> -->
+
+    <!-- onchangge bi hai -->
+
+    <!-- ---------------------------------------documentbyid -->
+    <!-- <input id="xyz" pe="text" size="30" onblur="this.style.backgroundColor='grey';" onFocus="this.style.backgroundColor='blue';">
+    <button onclick="setName() ">Click</button>
+    <p id="para"></p>
+ -->
+
+
+
+
+    <!-- ===========CALCULATOR UI================ -->
+    <div class="main">
+        <div>
+            <input id="result" class="display" type="text">
+        </div>
+        <div>
+            <button class="clearBtn" onclick="clearResult()">C</button>
+        </div>
+        <div>
+            <button class="classNumber" onclick="getNumber('7')">7</button>
+            <button class="classNumber" onclick="getNumber('8')">8</button>
+            <button class="classNumber" onclick="getNumber('9')">9</button>
+            <button class="classNumber" onclick="getNumber('*')">X</button>
+        </div>
+        <div>
+            <button class="classNumber" onclick="getNumber('4')">4</button>
+            <button class="classNumber" onclick="getNumber('5')">5</button>
+            <button class="classNumber" onclick="getNumber('6')">6</button>
+            <button class="classNumber" onclick="getNumber('-')">-</button>
+        </div>
+        <div>
+            <button class="classNumber" onclick="getNumber('1')">1</button>
+            <button class="classNumber" onclick="getNumber('2')">2</button>
+            <button class="classNumber" onclick="getNumber('3')">3</button>
+            <button class="classNumber" onclick="getNumber('+')">+</button>
+        </div>
+        <div>
+            <button class="classNumber" onclick="getNumber('0')">0</button>
+            <button class="classNumber" onclick="getAns()">=</button>
+            <button class="classNumber" onclick="getNumber('%')">%</button>
+            <button class="classNumber" onclick="getNumber('/')">/</button>
+
+
+        </div>
+    </div>
+
+
+
+</body>
+<script src=" app15.js "></script>
+
+</html>

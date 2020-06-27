@@ -1,0 +1,23 @@
+.main {
+    border: 2px solid gray;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.display {
+    background-color: grey;
+    width: 95%;
+}
+
+.clearBtn {
+    width: 100%;
+    margin-top: 10px;
+    background-color: gainsboro;
+}
+
+.classNumber {
+    width: 45px;
+    background-color: black;
+    color: white;
+    margin: 1px;
+}
